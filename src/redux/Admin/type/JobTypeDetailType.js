@@ -1,0 +1,5 @@
+export const GET_JOB_TYPE_DETAIL = 'GET_JOB_TYPE_DETAIL';
+export const GET_LIST_JOB_TYPE_DETAIL = 'GET_LIST_JOB_TYPE_DETAIL';
+export const ADD_JOB_GROUP = 'ADD_JOB_GROUP';
+export const GET_JOB_GROUP_INFO = 'GET_JOB_GROUP_INFO';
+export const CLEAR__ARR = 'CLEAR__ARR';

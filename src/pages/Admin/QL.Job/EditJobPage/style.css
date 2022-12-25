@@ -1,0 +1,7 @@
+.first__select .ant-select-selection-placeholder {
+    color: black;
+}
+
+textarea.ant-input {
+    min-height: 120px;
+}

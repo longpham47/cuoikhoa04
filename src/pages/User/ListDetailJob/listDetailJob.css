@@ -1,0 +1,343 @@
+.graphic {
+    margin: 0 60px;
+}
+
+.graphic-bg img {
+    margin: 30px 0;
+}
+
+.graphic-bg-under {
+    position: relative;
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.graphic-arrow-left {
+    background-color: #fff !important;
+    position: absolute;
+    z-index: 10;
+    left: 92%;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: -24px;
+    text-align: center;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 15%);
+    border: 0;
+    font-size: 16px;
+    line-height: 100%;
+    border-radius: 30px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.graphic-arrow-left::before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    background: url(https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/arrows.a8b0bad.svg) no-repeat;
+    background-size: 16px 64px;
+    width: 16px;
+    height: 16px;
+    margin-top: 13px;
+    left: 31%;
+}
+
+.graphic-arrow-right {
+    background-color: #fff !important;
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: -24px;
+    text-align: center;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 15%);
+    border: 0;
+    font-size: 16px;
+    line-height: 100%;
+    border-radius: 30px;
+    opacity: 1 !important;
+    cursor: pointer;
+}
+
+.graphic-arrow-right::before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    background: url(https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/arrows.a8b0bad.svg) no-repeat;
+    background-size: 16px 64px;
+    width: 16px;
+    height: 16px;
+    margin-top: 13px;
+    left: 31%;
+    transform: rotate(180deg);
+}
+
+/*  */
+
+.graphic-left h3 {
+    margin: 0;
+    font-weight: 600;
+}
+
+.img-logo {
+    height: 50px;
+}
+
+.text-logo {
+    margin: 0 5px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-logo {
+    background-color: transparent;
+    padding: 10px;
+    border: 1px solid #efeff0;
+    align-items: center;
+    box-shadow: 0 0.14px 2.29266px rgb(0 0 0 / 3%), 0 0.37px 4.42626px rgb(0 0 0 / 5%), 0 3px 7px rgb(0 0 0 / 9%);
+    border-radius: 10px;
+}
+
+.btn-logo:hover .text-logo {
+    color: #1dbf73;
+}
+
+/*  */
+.explore-graphic-design {
+    margin: 30px 0;
+}
+
+.explore-graphic-design h3 {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.groupJob {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    margin-bottom: 50px;
+}
+
+.card-img-detail {
+    border-radius: 5px;
+    width: 100%;
+    height: 180px;
+}
+
+.card-detail {
+    overflow: hidden;
+}
+
+.card-body-group {
+    padding: 10px 3px;
+    margin: 15px 0;
+}
+
+.card-title-group {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.list-detal {
+    padding: 0;
+}
+
+.name-item {
+    color: #62646a;
+    font-size: 18px;
+    cursor: pointer;
+    line-height: 35px;
+    padding: 0 3px;
+    margin-bottom: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+.name-item:hover {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+}
+
+/*  */
+.services-graphic {
+    text-align: center;
+    margin-bottom: 80px;
+    padding: 30px 0;
+}
+
+.services-graphic-title {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.button-item {
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 3px 0;
+    background: #efeff0;
+    border-color: #efeff0;
+    color: #74767e;
+    font-weight: 700;
+
+}
+
+.button-top,
+.button-middle,
+.button-bottom {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.button-top {
+    width: 95%;
+    grid-template-columns: repeat(7, 1fr);
+    margin: 0 auto;
+}
+
+.button-middle {
+    margin: 18px 0;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.button-bottom {
+    width: 60%;
+    margin: 0 auto;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+
+/* Responsive */
+
+@media screen and (max-width:1194px) {
+
+    .services-graphic {
+        padding: 0;
+    }
+
+    .img-logo {
+        height: 40px;
+    }
+
+    .text-logo {
+        font-size: 12px;
+    }
+
+    .button-item {
+        font-size: 10px;
+        padding: 3px 5px;
+        border-radius: 8px;
+    }
+
+    .job__card {
+        transform: translate(0, 0);
+        transition: all .5s;
+    }
+
+    .job__card:hover {
+        cursor: pointer;
+        transform: translate(0, -10px);
+    }
+
+    .card-img-job {
+        transform: scale(1);
+        transition: all .5s;
+    }
+
+    .job__card:hover .card-img-job {
+        transform: scale(1.10);
+    }
+
+    .graphic-arrow-left {
+        left: 85%;
+    }
+
+    .groupJob {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 736px) {
+
+    .graphic-bg img {
+        border-radius: 10px;
+    }
+
+    .graphic__btn .btn-logo {
+        width: 100%;
+        text-align: left;
+        margin-bottom: 15px;
+    }
+
+    .btn-logo .d-inline-flex span {
+        position: relative;
+    }
+
+    .btn-logo .d-inline-flex i {
+        position: absolute;
+        right: 20%;
+    }
+
+    .graphic-left h3,
+    .explore-graphic-design h3,
+    .services-graphic h3 {
+        font-size: 18px;
+    }
+
+    .groupJob {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* Button top grid style */
+
+    .button-top .button-item:nth-of-type(1),
+    .button-top .button-item:nth-of-type(2),
+    .button-top .button-item:nth-of-type(5) {
+        grid-column: 1/9;
+    }
+
+    .button-top .button-item:nth-of-type(3),
+    .button-top .button-item:nth-of-type(6) {
+        grid-column: 1/5;
+    }
+
+    .button-top .button-item:nth-of-type(4),
+    .button-top .button-item:nth-of-type(7) {
+        grid-column: 5/9;
+    }
+
+    /* Button middle grid style */
+
+    .button-middle .button-item:nth-of-type(1),
+    .button-middle .button-item:nth-of-type(3) {
+        grid-column: 1/5;
+    }
+
+    .button-middle .button-item:nth-of-type(2),
+    .button-middle .button-item:nth-of-type(4) {
+        grid-column: 5/9;
+    }
+
+    .button-middle .button-item:nth-of-type(5) {
+        grid-column: 1/9;
+    }
+
+    .button-middle .button-item:nth-of-type(6) {
+        grid-column: 1/4;
+    }
+
+    .button-middle .button-item:nth-of-type(7) {
+        grid-column: 4/9;
+    }
+
+    .button-middle .button-item:nth-of-type(8) {
+        grid-column: 1/9;
+    }
+
+}

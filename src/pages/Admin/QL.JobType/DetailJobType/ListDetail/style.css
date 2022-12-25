@@ -1,0 +1,8 @@
+#detailJobTypeTable .ant-table-cell {
+    text-align: center;
+}
+
+.myNavLink {
+    text-decoration: none;
+    color: black;
+}

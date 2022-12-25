@@ -1,0 +1,144 @@
+.profile__content {
+    background-color: #f7f7f7;
+}
+
+.content__left .card__avatar {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 80%;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.card__info i {
+    margin-right: 10px;
+}
+
+.info__top,
+.info__bottom {
+    display: flex;
+    justify-content: space-between;
+    color: #62646a;
+    font-weight: bold;
+}
+
+.achievement__tag {
+    margin: 5px 5px;
+    padding: 5px 12px;
+    border: 1px solid red;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.site-tag-plus {
+    font-weight: bold;
+    padding: 5px 12px;
+    border-radius: 5px;
+    background: #28a745;
+    color: #ffff;
+}
+
+.learn__card .card__bottom p {
+    font-size: 18px;
+}
+
+.desc__card .desc__title {
+    color: #008000;
+}
+
+.desc__card .desc__bot .left__list {
+    padding-left: 0;
+}
+
+.desc__bot .left__list a {
+    display: block;
+    margin: 15px 0;
+    color: #00698c;
+    font-weight: bold;
+}
+
+.desc__bot a i {
+    margin-right: 10px;
+}
+
+#pills-tab .nav-item:hover .nav-link {
+    color: black !important;
+}
+
+.desc__card .add__tag {
+    font-size: 16px;
+    color: #00698c;
+}
+
+.hire__job__list {
+    height: 500px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.hire__job__item {
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+.action__info {
+    flex-direction: column;
+}
+
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 1194px) {
+
+    .card__info .info__bottom {
+        flex-direction: column;
+        text-align: left;
+        margin-top: 5px;
+    }
+
+    .card__bottom h5 {
+        font-size: 20px;
+    }
+
+    .desc__top,
+    .desc__mid {
+        flex-direction: column;
+    }
+
+    .hire__job__item {
+        padding-left: 0;
+    }
+
+    .hire__job__item .item__cover {
+        margin-top: 18px;
+        padding-left: 18px;
+    }
+
+}
+
+@media screen and (max-width: 1112px) {
+
+    .card__info .info__bottom {
+        flex-direction: row;
+    }
+
+}
+
+@media screen and (max-width: 736px) {
+
+    .content__right {
+        margin-top: 18px;
+    }
+
+    .hire__job__item .item__cover {
+        margin-top: 8px;
+        padding-left: 10px;
+    }
+
+}
+
+/* END RESPONSIVE */

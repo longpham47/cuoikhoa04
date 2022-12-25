@@ -1,0 +1,2 @@
+export const GET_LIST_JOB_TYPE = 'GET_LIST_JOB_TYPE';
+export const GET_JOB_TYPE_BY_ID = 'GET_JOB_TYPE_BY_ID';

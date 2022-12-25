@@ -1,0 +1,197 @@
+.services-title {
+    padding-bottom: 80px;
+}
+
+.services-title h3 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+
+.slick-slider .slick-list {
+    margin: 0 137px !important;
+    overflow: hidden;
+}
+
+.slides-item {
+    height: 260px !important;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.2s linear;
+}
+.slides-item:hover {
+    opacity: 0.85;
+}
+
+.slick-prev {
+    left: 8% !important;
+}
+.slick-next {
+    right: 10% !important;
+}
+
+.slides-item-content {
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    width: 100%;
+    z-index: 10;
+    color: #fff;
+}
+.slides-item-bg{
+    position: relative;
+    margin-right: 30px;
+}
+
+.text-item-title {
+    font-size: 12px;
+    font-weight: 600;
+}
+.text-item-logo {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.services-title .slick-prev,
+.services-title .slick-next {
+    background-color: #fff !important;
+    position: absolute;
+    z-index: 10;
+    top: 60%;
+    width: 40px;
+    height: 40px;
+    margin-top: -24px;
+    text-align: center;
+    -webkit-box-shadow: 0 2px 5px 0 rgb(0 0 0 / 15%);
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 15%);
+    border: 0;
+    font-size: 16px;
+    line-height: 100%;
+    border-radius: 30px;
+    opacity: 1 !important;
+}
+
+.services-title .slick-prev:before {
+    content: "";
+    display: inline-block;
+    background: url(https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/arrows.a8b0bad.svg)
+        no-repeat;
+    background-size: 16px 64px;
+    width: 16px;
+    height: 16px;
+    margin-top: 13px;
+}
+.services-title .slick-next:before {
+    content: "";
+    display: inline-block;
+    background: url(https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/arrows.a8b0bad.svg)
+        no-repeat;
+    background-size: 16px 64px;
+    width: 16px;
+    height: 16px;
+    margin-top: 13px;
+    transform: rotate(180deg);
+}
+/* Responsive */
+@media screen and (max-width: 1200px) {
+    .slides-item {
+        height: 210px !important;
+        width: 100%;
+    }
+    .slick-prev {
+        left: 10% !important;
+    }
+    .slick-next {
+        right: 13% !important;
+    }
+}
+@media screen and (max-width: 1194px) {
+    .slides-item {
+        height: 180px !important;
+        width: 100%;
+    }
+    .slick-prev {
+        left: 10% !important;
+    }
+    .slick-next {
+        right: 13% !important;
+    }
+    .slick-slider .slick-list {
+        margin: 0px 140px !important;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .slides-item {
+        height: 180px !important;
+    }
+    .slick-prev {
+        left: 12% !important;
+    }
+    .slick-next {
+        right: 15% !important;
+    }
+}
+
+
+@media screen and (max-width:834px) {
+    .slick-slider .slick-list {
+        margin: 0 116px !important;
+    }
+}
+@media screen and (max-width:736px){
+    .slick-slider .slick-list {
+        margin: 0 100px !important;
+    }
+}
+@media screen and (max-width:667px){
+    .slick-next {
+        right: 17% !important;
+    }
+}
+@media screen and (max-width: 567px) {
+    .slides-item-bg{
+        margin: 0;
+    }
+   
+    .services-title h3 {
+        padding-top: 20px;
+        padding: 15px 35px;
+        font-weight: 700;
+        font-size: 16px;
+    }
+    .slides-item {
+        width: 100%;
+    }
+    .text-item-title {
+        font-size: 14px;
+    }
+    .text-item-logo {
+        font-size: 18px;
+        margin: 0;
+    }
+    .services-title .slick-prev,
+    .services-title .slick-next {
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .services-title .slick-prev:before {
+        margin-top: 8px;
+        font-size: 12px;
+    }
+    .slick-prev {
+        left: 22% !important;
+    }
+    .slick-next {
+        right: 23% !important;
+    }
+    .services-title .slick-next:before {
+        font-size: 12px;
+        margin-top: 8px;
+    }
+    .services-title {
+        padding-bottom: 50px;
+    }
+}

@@ -1,0 +1,147 @@
+.explore {
+    padding-top: 80px;
+    padding-bottom: 160px;
+}
+
+.explore-product {
+    justify-items: center;
+    align-items: center;
+    position: relative;
+}
+
+.explore-title {
+    color: #74767e;
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 16px;
+}
+.explore-logo {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+}
+
+.explore-content {
+    color: #003912;
+    font-size: 28px;
+    margin-bottom: 0;
+}
+.explore-img {
+    width: 100%;
+    border-radius: 3px;
+    height: 260px;
+}
+
+/* explore market */
+.explore-product-market {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 40px 20px;
+    text-align: center;
+    padding: 80px 0;
+}
+.explore-item {
+    font-size: 48px;
+    color: #a2f4c0;
+}
+.explore-market h2 {
+    font-weight: 600;
+}
+
+/* Responsive */
+
+@media  screen and (max-width:1194px) {
+    .explore-right {
+        right: -8%;
+    }
+    .explore {
+        padding-bottom: 125px;
+    }
+    .explore-img {
+        height: 330px;
+    }
+    .explore-content {
+        font-size: 24px;
+    }
+}
+@media screen and (max-width:1024px) {
+    .explore-right {
+        right: -4%;
+    }
+}
+
+@media screen and (max-width: 834px) {
+    .explore-right {
+        right: -2%;
+        top: -73%;
+    }
+ }
+
+@media screen and (max-width:736px){
+    .explore-right {
+        right: 0;
+        top: -63%;
+    }
+    .explore-product-market {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px 20px;
+        text-align: center;
+        padding: 30px 0;
+    }
+    .explore-item {
+        font-size: 38px;
+        color: #a2f4c0;
+    }
+    .explore {
+        padding-bottom: 80px;
+    }
+}
+
+@media screen and (max-width: 567px){
+    .explore-img {
+        height: 180px;
+    }
+    .explore-left {
+        top: 50%;
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+        left: 1%;
+    }
+    .explore-left::before {
+        margin-top: 8px;
+        left: 27%;
+    }
+    .explore-right {
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+        right: 2%;
+        top: -44%;
+    }
+    .explore-right::before {
+        margin-top: 8px;
+        left: 27%;
+    }
+    .explore-content {
+        font-size: 20px;
+    }
+    .explore {
+        padding-bottom: 80px;
+    }
+    .explore-product-market {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+        text-align: center;
+        padding: 30px 0;
+    }
+    .explore-market h2 {
+      font-size: 30px;
+    }
+    .explore-item {
+        font-size: 36px;
+    }
+}
